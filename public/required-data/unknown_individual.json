@@ -3,12 +3,11 @@
   "collectedBy": {
     "extId": "UNK"
   },
-  "statusMessage": null,
   "extId": "UNK",
   "firstName": "Unknown",
   "middleName": "",
   "lastName": "UNKNOWN",
-  "gender": "MALE",
+  "gender": "M",
   "dob": -2178558000000,
   "mother": null,
   "father": null,
