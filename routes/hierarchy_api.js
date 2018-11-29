@@ -6,8 +6,8 @@ let router = require('express').Router();
 let fs = require('fs');
 
 // Set default API response
-router.get('/levels', function (req, res) {
-    let data = JSON.parse(fs.readFileSync(require.resolve('../public/required-data/hierarchy_levels.json')));
+router.get('/hierarchy', function (req, res) {
+    let data = JSON.parse(fs.readFileSync(require.resolve('../public/required-data/hierarchy.json')));
     res.json(data)
 });
 

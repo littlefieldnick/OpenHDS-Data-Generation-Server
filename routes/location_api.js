@@ -8,7 +8,7 @@ const invalidLocType = ["CITY", "URBAN", "RURAL", "VIL"];
 const fieldworkers = ["FWFF1", "FWFF2"];
 const invalidFieldworkers = ["FWIN1", "FWIN2"];
 
-hierarchy = require("../public/data/hierarchy");
+hierarchy = require("../public/required-data/hierarchy");
 let subvillage = hierarchy.locationHierarchies[hierarchy.locationHierarchies.length - 1].extId;
 let extIdPrefix = "MBI";
 let extIdLength = 10;
