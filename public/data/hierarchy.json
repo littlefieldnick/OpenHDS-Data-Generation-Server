@@ -1,0 +1,173 @@
+{
+  "locationHierarchies": [
+    {
+      "uuid": "hierarchy1",
+      "extId": "TAN",
+      "parent": {
+        "uuid": null,
+        "extId": "HIERARCHY_ROOT",
+        "parent": null,
+        "name": null,
+        "level": null
+      },
+      "name": "TAN",
+      "level": {
+        "uuid": null,
+        "keyIdentifier": 1,
+        "name": "Country"
+      }
+    },
+    {
+      "uuid": "hierarchy2",
+      "extId": "IFA",
+      "parent": {
+        "uuid": null,
+        "extId": "TAN",
+        "parent": {
+          "uuid": "hierarchy_root",
+          "extId": "HIERARCHY_ROOT",
+          "parent": null,
+          "name": "",
+          "level": null
+        },
+        "name": null,
+        "level": null
+      },
+      "name": "IFA",
+      "level": {
+        "uuid": null,
+        "keyIdentifier": 2,
+        "name": "Region"
+      }
+    },
+    {
+      "uuid": "hierarchy3",
+      "extId": "IFB",
+      "parent": {
+        "uuid": null,
+        "extId": "IFA",
+        "parent": {
+          "uuid": "hierarchy1",
+          "extId": "TAN",
+          "parent": {
+            "uuid": "hierarchy_root",
+            "extId": "HIERARCHY_ROOT",
+            "parent": null,
+            "name": "",
+            "level": null
+          },
+          "name": "TAN",
+          "level": {
+            "uuid": "hierarchyLevelId1",
+            "keyIdentifier": 1,
+            "name": "Country"
+          }
+        },
+        "name": null,
+        "level": null
+      },
+      "name": "IFB",
+      "level": {
+        "uuid": null,
+        "keyIdentifier": 3,
+        "name": "District"
+      }
+    },
+    {
+      "uuid": "hierarchy4",
+      "extId": "IFC",
+      "parent": {
+        "uuid": null,
+        "extId": "IFB",
+        "parent": {
+          "uuid": "hierarchy2",
+          "extId": "IFA",
+          "parent": {
+            "uuid": "hierarchy1",
+            "extId": "TAN",
+            "parent": {
+              "uuid": "hierarchy_root",
+              "extId": "HIERARCHY_ROOT",
+              "parent": null,
+              "name": "",
+              "level": null
+            },
+            "name": "TAN",
+            "level": {
+              "uuid": "hierarchyLevelId1",
+              "keyIdentifier": 1,
+              "name": "Country"
+            }
+          },
+          "name": "IFA",
+          "level": {
+            "uuid": "hierarchyLevelId2",
+            "keyIdentifier": 2,
+            "name": "Region"
+          }
+        },
+        "name": null,
+        "level": null
+      },
+      "name": "IFC",
+      "level": {
+        "uuid": null,
+        "keyIdentifier": 4,
+        "name": "Village"
+      }
+    },
+    {
+      "uuid": "hierarchy5",
+      "extId": "MBI",
+      "parent": {
+        "uuid": null,
+        "extId": "IFC",
+        "parent": {
+          "uuid": "hierarchy3",
+          "extId": "IFB",
+          "parent": {
+            "uuid": "hierarchy2",
+            "extId": "IFA",
+            "parent": {
+              "uuid": "hierarchy1",
+              "extId": "TAN",
+              "parent": {
+                "uuid": "hierarchy_root",
+                "extId": "HIERARCHY_ROOT",
+                "parent": null,
+                "name": "",
+                "level": null
+              },
+              "name": "TAN",
+              "level": {
+                "uuid": "hierarchyLevelId1",
+                "keyIdentifier": 1,
+                "name": "Country"
+              }
+            },
+            "name": "IFA",
+            "level": {
+              "uuid": "hierarchyLevelId2",
+              "keyIdentifier": 2,
+              "name": "Region"
+            }
+          },
+          "name": "IFB",
+          "level": {
+            "uuid": "hierarchyLevelId3",
+            "keyIdentifier": 3,
+            "name": "District"
+          }
+        },
+        "name": null,
+        "level": null
+      },
+      "name": "MBI",
+      "level": {
+        "uuid": null,
+        "keyIdentifier": 5,
+        "name": "Subvillage"
+      }
+    }
+  ]
+}

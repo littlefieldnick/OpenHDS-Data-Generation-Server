@@ -1,0 +1,29 @@
+{
+  "locationHierarchies": [
+    {
+      "uuid": "hierarchyLevelId1",
+      "keyIdentifier": 1,
+      "name": "Country"
+    },
+    {
+      "uuid": "hierarchyLevelId2",
+      "keyIdentifier": 2,
+      "name": "Region"
+    },
+    {
+      "uuid": "hierarchyLevelId3",
+      "keyIdentifier": 3,
+      "name": "District"
+    },
+    {
+      "uuid": "hierarchyLevelId4",
+      "keyIdentifier": 4,
+      "name": "Village"
+    },
+    {
+      "uuid": "hierarchyLevelId5",
+      "keyIdentifier": 5,
+      "name": "Subvillage"
+    }
+  ]
+}

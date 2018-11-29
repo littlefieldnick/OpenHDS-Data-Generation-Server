@@ -3,10 +3,10 @@ var app = express();
 
 
 // Import routes
-let apiRoutes = require("./routes/location_api");
+let routes = require("./routes/routes");
 
 // Use Api routes in the App
-app.use('/api', apiRoutes);
+app.use('/api', routes);
 
 app.listen(3000, () => {
     console.log("Server running on port 3000");
