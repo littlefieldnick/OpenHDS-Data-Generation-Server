@@ -4,6 +4,8 @@ let router = express.Router();
 let levelsApi = require("./levels_api");
 let hierarchyApi = require('./hierarchy_api');
 let locationApi = require("./location_api");
+let socialGroupApi = require("./social_group_api");
+
 // Set default API response
 router.get('/', function (req, res) {
     res.json({
@@ -16,6 +18,7 @@ router.get('/', function (req, res) {
 router.use(levelsApi);
 router.use(hierarchyApi);
 router.use(locationApi);
+router.use(socialGroupApi);
 
 // Export API routes
 module.exports = router;
