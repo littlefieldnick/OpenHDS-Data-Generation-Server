@@ -1,0 +1,9 @@
+{
+  "uuid": "UnknownFieldWorker",
+  "extId": "UNK",
+  "firstName": "Unknown",
+  "lastName": "FieldWorker",
+  "password": null,
+  "confirmPassword": null,
+  "passwordHash": "invalid-password-hash"
+}
