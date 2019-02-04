@@ -20,7 +20,7 @@ function padExtId(idNum){
 }
 
 router.get('/locations', function(req, res){
-    res.json({
+    res.send({
         uuid: faker.random.uuid(),
         extId: padExtId(Math.floor(Math.random()*99)),
         locationLevel: subvillage,
@@ -70,7 +70,7 @@ router.get('/locations/invalid/:num', function(req, res){
         });
     }
 
-    res.json({locations: locations});
+    res.send({locations: locations});
 
 });
 
